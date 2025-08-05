@@ -1,31 +1,3 @@
-// // import express from "express";
-// // import send_reservation from "../controller/reservation.js";
-
-// // const router = express.Router();
-
-// // router.post("/send", send_reservation);
-
-// // export default router;
-
-// import express from "express";
-// import { send_reservation } from "../controller/reservation.js"; // ✅ match named export
-
-// const router = express.Router();
-
-// router.post("/send", send_reservation);
-
-// export default router;
-
-
-// import express from "express";
-// import { send_reservation } from "../controller/reservation.js";
-
-// const router = express.Router();
-
-// // POST route to handle reservation form submissions
-// router.post("/send", send_reservation);
-
-// export default router;
 
 
 import express from "express";
