@@ -20,7 +20,6 @@ export const errorMiddleware = (err, req, res, next) => {
     return next(new ErrorHandler(validationErrors.join(', '), 400));
   }
 
-
   return res.status(err.statusCode).json({
     success: false,
     message: err.message,
